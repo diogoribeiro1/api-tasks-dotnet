@@ -1,0 +1,17 @@
+/home/diogoribeiro/RiderProjects/WebApplication1/Application/bin/Debug/net6.0/Application.deps.json
+/home/diogoribeiro/RiderProjects/WebApplication1/Application/bin/Debug/net6.0/Application.dll
+/home/diogoribeiro/RiderProjects/WebApplication1/Application/bin/Debug/net6.0/ref/Application.dll
+/home/diogoribeiro/RiderProjects/WebApplication1/Application/bin/Debug/net6.0/Application.pdb
+/home/diogoribeiro/RiderProjects/WebApplication1/Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache
+/home/diogoribeiro/RiderProjects/WebApplication1/Application/obj/Debug/net6.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/diogoribeiro/RiderProjects/WebApplication1/Application/obj/Debug/net6.0/Application.AssemblyInfoInputs.cache
+/home/diogoribeiro/RiderProjects/WebApplication1/Application/obj/Debug/net6.0/Application.AssemblyInfo.cs
+/home/diogoribeiro/RiderProjects/WebApplication1/Application/obj/Debug/net6.0/Application.csproj.CoreCompileInputs.cache
+/home/diogoribeiro/RiderProjects/WebApplication1/Application/obj/Debug/net6.0/Application.dll
+/home/diogoribeiro/RiderProjects/WebApplication1/Application/obj/Debug/net6.0/ref/Application.dll
+/home/diogoribeiro/RiderProjects/WebApplication1/Application/obj/Debug/net6.0/Application.pdb
+/home/diogoribeiro/RiderProjects/WebApplication1/Application/bin/Debug/net6.0/Data.dll
+/home/diogoribeiro/RiderProjects/WebApplication1/Application/bin/Debug/net6.0/Domain.dll
+/home/diogoribeiro/RiderProjects/WebApplication1/Application/bin/Debug/net6.0/Data.pdb
+/home/diogoribeiro/RiderProjects/WebApplication1/Application/bin/Debug/net6.0/Domain.pdb
+/home/diogoribeiro/RiderProjects/WebApplication1/Application/obj/Debug/net6.0/Application.csproj.CopyComplete
