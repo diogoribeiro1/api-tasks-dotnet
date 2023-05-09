@@ -36,9 +36,9 @@ public class TasksRepository : ITaskRepository
         await _db.SaveChangesAsync();
     }
 
-    public async Task DeleteAsync(Tasks tasks)
+    public async Task DeleteAsync(Tasks task)
     {
-        _db.Remove(tasks);
+        _db.Remove(task);
         await _db.SaveChangesAsync();
     }
 }

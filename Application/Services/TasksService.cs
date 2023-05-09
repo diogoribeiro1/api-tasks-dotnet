@@ -36,8 +36,8 @@ public class TasksService : ITasksServices
     public async Task UpdateAsync(int id, Tasks task)
     {
         var payloadToUpdate = await GetOneAsync(id);
-        payloadToUpdate.title = task.title;
-        payloadToUpdate.description = task.description;
+        payloadToUpdate.Title = task.Title;
+        payloadToUpdate.Description = task.Description;
         await _tasksRepository.EditAsync(payloadToUpdate);
     }
 }

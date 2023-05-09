@@ -8,26 +8,26 @@ namespace Domain.Entities;
 public sealed class Tasks
 {
     
-    public int id {get; set;}
+    public int Id {get; set;}
 
-    public string? title {get; set;}
+    public string? Title {get; set;}
 
-    public string? description {get; set;}
+    public string? Description {get; set;}
     
     public Tasks()
     {}
 
     public Tasks(int id, string? title, string? description)
     {
-        this.id = id;
-        this.title = title;
-        this.description = description;
+        this.Id = id;
+        this.Title = title;
+        this.Description = description;
     }
     
     public Tasks(string? title, string? description)
     {
-        this.title = title;
-        this.description = description;
+        this.Title = title;
+        this.Description = description;
     }
 
 }

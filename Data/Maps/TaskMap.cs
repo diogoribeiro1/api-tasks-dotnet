@@ -11,16 +11,16 @@ public class TaskMap : IEntityTypeConfiguration<Tasks>
     {
         builder.ToTable("tasks");
 
-        builder.HasKey(c => c.id);
+        builder.HasKey(c => c.Id);
 
-        builder.Property(c => c.id)
+        builder.Property(c => c.Id)
             .HasColumnName("id")
             .UseIdentityColumn();
         
-        builder.Property(c => c.title)
+        builder.Property(c => c.Title)
             .HasColumnName("title");
         
-        builder.Property(c => c.description)
+        builder.Property(c => c.Description)
             .HasColumnName("description");
     }
 }

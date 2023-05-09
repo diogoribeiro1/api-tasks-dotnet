@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{579EF045-2A0A-43C4-8773-461BA1A3C1A3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{0FA9B8D2-CF8A-4CA7-872C-F3FB36E50F3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{579EF045-2A0A-43C4-8773-461BA1A3C1A3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{23C0D8D0-FE80-47EA-8651-F4BA4ADDE3B9}"
 EndProject
@@ -10,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{BE5C732C-7788-4D32-9112-8B6E843A0024}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC", "IoC\IoC.csproj", "{25233A67-1D7E-41C6-8387-FA6EB677084C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{25233A67-1D7E-41C6-8387-FA6EB677084C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,10 +20,6 @@ Global
 		{579EF045-2A0A-43C4-8773-461BA1A3C1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{579EF045-2A0A-43C4-8773-461BA1A3C1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{579EF045-2A0A-43C4-8773-461BA1A3C1A3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0FA9B8D2-CF8A-4CA7-872C-F3FB36E50F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0FA9B8D2-CF8A-4CA7-872C-F3FB36E50F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0FA9B8D2-CF8A-4CA7-872C-F3FB36E50F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0FA9B8D2-CF8A-4CA7-872C-F3FB36E50F3B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{23C0D8D0-FE80-47EA-8651-F4BA4ADDE3B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{23C0D8D0-FE80-47EA-8651-F4BA4ADDE3B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23C0D8D0-FE80-47EA-8651-F4BA4ADDE3B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
