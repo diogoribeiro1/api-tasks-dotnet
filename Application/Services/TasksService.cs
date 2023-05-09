@@ -10,7 +10,7 @@ public class TasksService : ITasksServices
     public TasksService(ITaskRepository tasksRepository)
     {
         _tasksRepository = tasksRepository;
-    }
+    }   
 
     public async Task<Tasks> CreateAsync(Tasks tasks)
     {
@@ -27,13 +27,17 @@ public class TasksService : ITasksServices
         return await _tasksRepository.GetByIdAsync(id);
     }
     
-    public async Task DeleteAsync(Tasks tasks)
+    public async Task DeleteAsync(int id)
     {
-        await _tasksRepository.DeleteAsync(tasks);
+        var payload = await GetOneAsync(id);
+        await _tasksRepository.DeleteAsync(payload);
     }
     
-    public async Task UpdateAsync(Tasks tasks)
+    public async Task UpdateAsync(int id, Tasks task)
     {
-        await _tasksRepository.EditAsync(tasks);
+        var payloadToUpdate = await GetOneAsync(id);
+        payloadToUpdate.title = task.title;
+        payloadToUpdate.description = task.description;
+        await _tasksRepository.EditAsync(payloadToUpdate);
     }
 }

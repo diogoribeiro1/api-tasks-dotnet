@@ -1,6 +1,7 @@
 using Application.Services;
 using Data.Context;
 using Data.Repositories;
+using Domain.Commands.Handlers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -14,7 +15,9 @@ public static class DependencyInjection
         services.AddDbContext<ApplicationDbContext>(options =>  
             options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
 
-        services.AddScoped<ITaskRepository, TasksRepository>(); 
+        services.AddScoped<ITaskRepository, TasksRepository>();
+        
+        services.AddTransient<ICreateTaskHandler, CreateTaskHandler>();
         
         return services;
     }
